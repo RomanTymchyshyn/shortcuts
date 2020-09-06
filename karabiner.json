@@ -16,7 +16,7 @@
                 },
                 "rules": [
                     {
-                        "description": "Swap command and control",
+                        "description": "Swap command and control for Remote Desktop",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -247,7 +247,7 @@
                         ]
                     },
                     {
-                        "description": "Ctrl + Arrow Keys to Option + Arrow Keys",
+                        "description": "Ctrl + Arrow Keys jump a word",
                         "manipulators": [
                             {
                                 "from": {
@@ -328,7 +328,7 @@
                         ]
                     },
                     {
-                        "description": "Ctrl + Shift + Arrow Keys to Option + Shift + Arrow Keys",
+                        "description": "Ctrl + Shift + Arrow Keys jump & select a word",
                         "manipulators": [
                             {
                                 "from": {
@@ -417,7 +417,7 @@
                         ]
                     },
                     {
-                        "description": "Ctrl + BS/Del Keys to Option + BS/Del Keys",
+                        "description": "Ctrl + BS/Del Keys delete word backward/forward",
                         "manipulators": [
                             {
                                 "from": {
@@ -460,7 +460,7 @@
                         ]
                     },
                     {
-                        "description": "Home to Control Left except Remote Desktop",
+                        "description": "Home jump to line start (except Remote Desktop)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -485,7 +485,7 @@
                         ]
                     },
                     {
-                        "description": "End to Control Right except Remote Desktop",
+                        "description": "End jump to line end (except Remote Desktop)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -510,7 +510,7 @@
                         ]
                     },
                     {
-                        "description": "Shift Home to Shift Command Left",
+                        "description": "Shift Home to select from current position to line start",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -543,7 +543,7 @@
                         ]
                     },
                     {
-                        "description": "Shift End to Shift Command Right",
+                        "description": "Shift End to select from current position to line end",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -576,7 +576,7 @@
                         ]
                     },
                     {
-                        "description": "Ctrl+Home, Ctrl+Shift+Home => Cmd+Up arrow, Cmd+Shift+Up arrow (Move cursor to beginning of file with and without selection)",
+                        "description": "Ctrl+Home, Ctrl+Shift+Home => Move cursor to beginning of file with and without selection",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -616,7 +616,7 @@
                         ]
                     },
                     {
-                        "description": "Ctrl+End, Ctrl+Shift+End => Cmd+down arrow, Cmd+Shift+down arrow (Move cursor to end of file with and without selection)",
+                        "description": "Ctrl+End, Ctrl+Shift+End => Move cursor to end of file with and without selection",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -656,7 +656,7 @@
                         ]
                     },
                     {
-                        "description": "Alt+F4 => Cmd+Q (Exit application)",
+                        "description": "Alt+F4 => Exit application",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -710,7 +710,7 @@
                         ]
                     },
                     {
-                        "description": "F5 => Cmd+r (Reload)",
+                        "description": "F5 => Reload",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -770,7 +770,7 @@
                         ]
                     },
                     {
-                        "description": "Return => Cmd+o (Open) (Only in Finder)",
+                        "description": "Return => Open (Only in Finder)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -802,7 +802,7 @@
                         ]
                     },
                     {
-                        "description": "Backspace => Cmd+up (Go back) (Only in Finder)",
+                        "description": "Backspace => Go back (Only in Finder)",
                         "manipulators": [
                             {
                                 "conditions": [

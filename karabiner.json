@@ -250,7 +250,7 @@
                         "description": "Ctrl + Arrow Keys jump a word",
                         "manipulators": [
                             {
-                                "conditions":[
+                                "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "^com.apple.finder"
@@ -277,7 +277,7 @@
                                 "type": "basic"
                             },
                             {
-                                "conditions":[
+                                "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "^com.apple.finder"
@@ -436,7 +436,7 @@
                         "description": "Ctrl + BS/Del Keys delete word backward/forward except Finder",
                         "manipulators": [
                             {
-                                "conditions":[
+                                "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "^com.apple.finder"
@@ -935,6 +935,39 @@
                                         "modifiers": [
                                             "option",
                                             "left_control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Option + Shift to select next input source (except Remote Desktop)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com\\.microsoft\\.rdc\\.mac"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_shift",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "command",
+                                            "option"
                                         ]
                                     }
                                 ],

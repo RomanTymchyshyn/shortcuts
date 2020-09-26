@@ -1,0 +1,129 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+alt+shift+b",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "cmd+shift+`",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "cmd+alt+v",
+        "command": "extension.refactorix.ExtractVariable",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+m",
+        "command": "workbench.actions.view.problems"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "projectManager.listProjectsNewWindow"
+    },
+    {
+        "key": "cmd+shift+n",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+o",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+s",
+        "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "cmd+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "shift+alt+p",
+        "command": "projectManager.listProjects"
+    },
+    {
+        "key": "alt+cmd+p",
+        "command": "-projectManager.listProjects"
+    },
+    {
+        "key": "cmd+f4",
+        "command": "workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "cmd+f4",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "shift+cmd+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "cmd+f4",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "alt+cmd+v",
+        "command": "extract_variable"
+    },
+    {
+        "key": "cmd+alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+cmd+end",
+        "command": "cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "-cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+home",
+        "command": "cursorTopSelect",
+        "when": "textInputFocus"
+    }
+]

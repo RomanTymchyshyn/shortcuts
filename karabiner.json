@@ -540,7 +540,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com\\.microsoft\\.rdc\\.mac"
+                                            "com\\.microsoft\\.rdc\\.mac",
+                                            "com\\.microsoft\\.VSCode"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -573,7 +574,8 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com\\.microsoft\\.rdc\\.mac"
+                                            "com\\.microsoft\\.rdc\\.mac",
+                                            "com\\.microsoft\\.VSCode"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -611,7 +613,8 @@
                                             "^co\\.zeit\\.hyper$",
                                             "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                                             "^com\\.microsoft\\.rdc\\.macos$",
-                                            "com\\.microsoft\\.rdc\\.mac"
+                                            "com\\.microsoft\\.rdc\\.mac",
+                                            "com\\.microsoft\\.VSCode"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -651,7 +654,8 @@
                                             "^co\\.zeit\\.hyper$",
                                             "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                                             "^com\\.microsoft\\.rdc\\.macos$",
-                                            "com\\.microsoft\\.rdc\\.mac"
+                                            "com\\.microsoft\\.rdc\\.mac",
+                                            "com\\.microsoft\\.VSCode"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
